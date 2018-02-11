@@ -1,0 +1,70 @@
+/*style.css stylesheet for this site */
+
+*{
+    margin: 0;
+    vertical-align: baseline;
+}
+
+body{
+    background-color: gainsboro;
+    margin: 0 auto 0 auto;
+    width: 90%;
+    font-family: arial, sans-serif;
+}
+header{
+    background-color: aqua;
+    height: 6em;
+    text-align: center;
+    line-height: 6em;
+}
+nav{
+    background-color: burlywood;
+    height: 2em;
+    text-align: center;
+}
+nav ul{
+    margin: auto;
+}
+nav ul li, nav a{
+    display: block;
+    float: left;
+    line-height: 2em;
+    width: 5em;
+    text-align: center;
+    padding-left: 20px;
+}
+main{
+ background-color: deepskyblue;
+    min-height: 300px;
+    padding: 3em;
+}
+section{
+    
+    width: 60%;
+    float: left;
+    margin-top: 2em;
+}
+.lbsize{
+    display: block;
+    width: 3em;
+}
+aside{
+    
+    width: 40%;
+    float: right;
+    margin-top: 2em;
+}
+footer{
+    
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+  background-color: antiquewhite;  
+    color: aqua
+}
+a:visited{
+    color: white;
+}
